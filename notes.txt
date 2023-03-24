@@ -1,0 +1,15 @@
+On this App I want to make a form that will take info from the front end
+and the server connects with the database to save the info then 
+we also will up load pic in the local file using multer the only thing we are saving is the 
+file name and data to be retrieved from the images folder in the server part
+and we after this we will set it up for authorizaton 
+
+
+fetch(""localhosst:5000/work,
+{
+    Method:"POST"
+    headers:{"content-type/application/json}
+    body:JSON.Stringify(body)
+}) this is done autiomatically because we got the submit button in the form 
+
+req.file.buffer is where we get the data
